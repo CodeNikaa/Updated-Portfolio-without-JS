@@ -16,6 +16,7 @@ img {
 
 .headerContainer {
     /*z-index: 1;*/
+    height: 100vh;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -53,16 +54,22 @@ img {
     text-align: center;
 }
 
+.FirstSectionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #cdc6be;
+    height: 100vh;
+}
+
 .HeaderText {
     grid-column: 1;
 }
 
 .Portrait {
     grid-column: 2;
-    height: 180px;
     display: flex;
     justify-content: center;
-    margin-top: 180px;
+    align-items: center;
     margin-left: 10px;
 }
 
@@ -70,14 +77,6 @@ img {
     z-index: 1;
     border-radius: 360px;
     height: 250px;
-}
-
-.FirstSectionContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #cdc6be;
-    height: 650px;
-    margin-top: 600px;
 }
 
 .HeaderText {
