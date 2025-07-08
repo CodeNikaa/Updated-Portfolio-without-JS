@@ -9,7 +9,7 @@ h1 {
     text-decoration: underline;
 }
 
-img {
+.background-picture {
     position: absolute;
     z-index: -1;
 }
@@ -90,12 +90,12 @@ img {
 .HeaderText > h1 {
     text-align: left;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 75px;
     padding-top: 0;
 }
 
 .HeaderText > h2 {
-    font-size: 2.5rem;
+    font-size: 43px;
     text-decoration: underline;
     padding-bottom: 40px;
 
@@ -106,102 +106,26 @@ img {
 }
 
 .DescriptionText {
-    font-size: 2rem;
+    font-size: 27px;
 }
 
 .mainSection {
     background: linear-gradient(to top, #8f8b8b, #e1dedc);
-    height: 101vh;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1.25fr;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    grid-template-columns: 1fr 1.5fr;
 }
 
-.CareerJourney {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    border-radius: 40px;
-    margin-right: 5rem;
+.career-journey {
+    border-radius: 75px;
+    background-color: #e4e4e4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
 }
 
 .career-header {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-left: 2.5rem;
-}
-
-.career-header > img {
-    z-index: 1;
-    width: 2.75rem;
-    margin-top: 0.50rem;
-    margin-right: 22rem;
-}
-
-.itemGroup > img {
-    z-index: 1;
-    height: 175px;
-    width: 30px;
-}
-
-.JourneyItems {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.itemGroup {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
-}
-
-.color-swap {
-    color: #7c8186;
-}
-
-.itemGroup > h3 {
-    font-size: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 2rem;
-    float: right;
-}
-
-.itemGroup > h3, p {
-    z-index: 2;
-    margin-left: 40px;
-}
-
-.Vision-Main-Text {
-    text-decoration: underline;
-}
-
-.VisionForward {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to top, #8f8b8b, #e1dedc);
-    border-radius: 120px;
     text-align: center;
-    width: 38em;
-    height: auto;
-    font-size: 0.7rem;
-    padding-top: 1rem;
-    padding-bottom: 0.2rem;
-    margin-bottom: 0.5rem;
-}
-
-.paragraph-under {
-    margin-left: 0;
-    text-align: center;
-    width: 32em;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
