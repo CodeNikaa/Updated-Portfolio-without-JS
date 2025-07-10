@@ -10,6 +10,9 @@
             rel="stylesheet"
             integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
             crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
@@ -18,7 +21,8 @@
     <body>
         <header>
             <div class="headerContainer">
-                <img class="background-picture" src="./assets/pexels-eberhardgross-691668.jpg"
+                <img class="background-picture"
+                    src="./assets/pexels-eberhardgross-691668.jpg"
                     alt="Mountains Sky" width="100%">
                 <div class="headerMain">
                     <h1>Tobias's Portfolio</h1>
@@ -27,16 +31,16 @@
                 <div class="NavBarContainer">
                     <nav>
                         <ul class="NavBar">
-                            <li><a href><h2>About</h2></a></li>
-                            <li><a href><h2>Skills</h2></a></li>
-                            <li><a href><h2>Contact</h2></a></li>
+                            <li><a href="#About"><h2>About</h2></a></li>
+                            <li><a href="#Skills"><h2>Skills</h2></a></li>
+                            <li><a href="#Contact"><h2>Contact</h2></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
         <section>
-            <div class="FirstSectionContainer">
+            <div id="About" class="FirstSectionContainer">
                 <div class="HeaderText">
                     <h1>Hi, it's Tobias</h1>
                     <h2>Fullstack Developer</h2>
@@ -48,49 +52,55 @@
                     </p>
                 </div>
                 <div class="Portrait">
-                    <img src="./assets/ChatGPT Image 22. Juni 2025, 18_55_03.png" alt="Portrait of Myself">
+                    <img
+                        src="./assets/ChatGPT Image 22. Juni 2025, 18_55_03.png"
+                        alt="Portrait of Myself">
                 </div>
             </div>
         </section>
         <main>
-            <div class="mainSection">
+            <div id="Skills" class="mainSection">
                 <div class="career-journey">
                     <div class="career-header">
                         <h1>Career Journey</h1>
                     </div>
-                    <div class="JourneyItems">
+                    <div class="journey-items">
                         <div class="itemGroup">
                             <h3>
-                            <span class="color-swap">
-                                2017
-                            </span>
-                            <br> 
+                                <span class="color-swap">
+                                    2017
+                                </span>
+                                <br>
                                 Journeyman's Certificate
                             </h3>
-                            <p class="color-swap">Painter and Varnisher - Foundation in craftsmanship and attention to. <br><br></p>
+                            <p class="color-swap">Painter and Varnisher -
+                                Foundation in craftsmanship and attention to.
+                                <br><br></p>
                         </div>
                         <div class="itemGroup">
                             <h3>
-                            <span class="color-swap">
-                                2017 - 2023
-                            </span>
-                            <br>
-                            Painter-Varnisher / Floor Layer
+                                <span class="color-swap">
+                                    2017 - 2023
+                                </span>
+                                <br>
+                                Painter-Varnisher / Floor Layer
                             </h3>
-                            <p class="color-swap">Professional craftsman with expertise in surface perperation, 
-                               finishing techniques and qualitiy control</p>
+                            <p class="color-swap">Professional craftsman with
+                                expertise in surface perperation,
+                                finishing techniques and qualitiy control</p>
                         </div>
                         <div class="itemGroup">
                             <h3>
-                            <span class="color-swap">
-                                2024 - Present
-                            </span>
-                            <br>
-                            Concierge / Doorman
+                                <span class="color-swap">
+                                    2024 - Present
+                                </span>
+                                <br>
+                                Concierge / Doorman
                             </h3>
-                            <p class="color-swap">Handling customers and visitors,
-                               acceptance and management of goods, 
-                               fire alarm/emergency center</p>
+                            <p class="color-swap">Handling customers and
+                                visitors,
+                                acceptance and management of goods,
+                                fire alarm/emergency center</p>
                         </div>
                     </div>
                     <div class="VisionForward">
@@ -98,53 +108,104 @@
                             Vision Forward
                         </h3>
                         <p class="paragraph-under ">
-                            Transitioning from traditional craftsmanship to digital creation. 
-                            Building a future in software development trough dedicated learning and
+                            Transitioning from traditional craftsmanship to
+                            digital creation.
+                            Building a future in software development trough
+                            dedicated learning and
                             practical application of modern web technologies.
                         </p>
                     </div>
                 </div>
                 <div class="TechnicalSkills">
                     <h1>Technical Skills</h1>
-                    <div class="skill-List">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>jQuery</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                            <li>SQL</li>
-                            <li>Git/GitHub</li>
+                    <div class="skill-list-container">
+                        <ul class="skill-list">
+                            <li class="skill-item">HTML5</li>
+                            <li class="skill-item">CSS3</li>
+                            <li class="skill-item">Bootstrap</li>
+                            <li class="skill-item">JavaScript</li>
+                            <li class="skill-item">React</li>
+                            <li class="skill-item">jQuery</li>
+                            <li class="skill-item">Node.js</li>
+                            <li class="skill-item">PostgreSQL</li>
+                            <li class="skill-item">SQL</li>
+                            <li class="skill-item">Git/GitHub</li>
                         </ul>
                     </div>
                     <div class="core-strenghts">
                         <h2>Core Strenghts</h2>
-                        <h3 class="core-strenght-items">
-                            <span class="core-strenght-highlight">
-                            Problem Solver:
-                            </span> 
-                            Successfully resolved customer complaints Indepently, 
-                            demonstrating analytical thinking and communication skills.  
-                        </h3>
-                        <h3 class="core-strenght-items">
-                            <span class="core-strenght-highlight">
-                            Self-Directed Learner:
-                            </span> 
-                            Developed technical solutions despite limited initial experience and knowledge, 
-                            showing adaptability and determination.  
-                        </h3>
-                        <h3 class="core-strenght-items">
-                            <span class="core-strenght-highlight">
-                            Continious Growth:
-                            </span> 
-                            Actively expanding knowledge in modern web technologies and development frameworks. 
-                        </h3>
+                        <div class="core-strenght-items">
+                            <h3 class="core-strenght-highlight">
+                                Problem Solver:
+                            </h3>
+                            <h3 class="core-strenght-text">
+                            Successfully resolved customer complaints
+                            Indepently,
+                            <br>
+                            demonstrating analytical thinking and 
+                            <br>
+                            communication
+                            skills.
+                            </h3>
+                        </div>
+                        <div class="core-strenght-items">
+                            <h3 class="core-strenght-highlight">
+                                Self-Directed Learner:
+                            </h3>
+                            <h3 class="core-strenght-text">
+                            Developed technical solutions despite limited
+                            <br>
+                            initial experience and knowledge,
+                            <br>
+                            showing adaptability and determination.
+                            </h3>
+                        </div>
+                        <div class="core-strenght-items">
+                            <h3 class="core-strenght-highlight">
+                                Continious Growth:
+                            </h3>
+                            <h3 class="core-strenght-text">
+                            Actively expanding knowledge in modern web
+                            technologies
+                            <br>
+                            and development frameworks.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
+        <footer id="Contact">
+            <h2 class="footer-intro">
+                Get in Touch with Me
+            </h2>
+            <h4 class="footer-text">
+                Ready to collaborate on your next project or discuss exciting <br>
+                opportunities? I'd love to hear from you and expolore how we can <br>
+                create something amazing together.
+            </h4>
+            <div class="footer-details">
+                <div class="footer-row1">
+                    <div>
+                    <h3 class="footer-items-upper">Email:</h3>
+                    <h3 class="footer-items-lower">xtobiasgerstner@gmail.com</h3>
+                    </div>
+                    <div>   
+                    <h3 class="footer-items-upper">GitHub:</h3>
+                    <h3 class="footer-items-lower">github.com/CodeNikaa</h3>   
+                    </div>
+                    <div> 
+                    <h3 class="footer-items-upper">LinkedIn:</h3>
+                    <h3 class="footer-items-lower">linkedin.com/in/tobias-gerstner-4Ob79b27b</h3>  
+                    </div> 
+                </div>
+                <form class="footer-row2" action="/contact-send" method="post">
+                    <input class="custom-input" name="Your Name" type="text" placeholder="Your Name:" required>
+                    <input class="custom-input" name="Your Email" type="email" placeholder="Your Email:" required>
+                    <input class="custom-input" name="Subject" type="text" placeholder="Your Subject:" minlength="1" maxlength="30" required>
+                    <textarea class="custom-input" name="TextBox" placeholder="Your Message:"required rows="7" ></textarea>
+                </form>
+            </div>
+        </footer>
     </body>
 </html>
